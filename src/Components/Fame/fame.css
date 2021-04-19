@@ -1,0 +1,23 @@
+.fame-head{
+    position:absolute;left:150px;top:2000px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:45px;
+}
+.fameimg1{
+    position:absolute;padding-top: 1840px;padding-left: 150px;
+}
+.fameimg3{
+    position:absolute;padding-top: 1840px;padding-left: 520px;
+}
+.fameimg4{
+    position:absolute;padding-top: 2150px;padding-left: 520px;
+}
+.fameimg2{
+    position:absolute;padding-top: 2480px;padding-left: 150px;
+}
+.fameimg5{
+    position:absolute;padding-top: 2150px;padding-left: 880px;
+}
+.fameimg6{
+    position:absolute;padding-top: 2780px;padding-left: 900px;
+}

@@ -1,0 +1,67 @@
+body{
+	width: 80%;
+	height: 100%;
+}
+/*────────────────── 
+     Scrollbar
+──────────────────*/
+::-webkit-Scrollbar{
+    width: 5px; 
+	background: rgba(5,5,5,1);
+}
+::-webkit-Scrollbar-thumb{
+	border-radius: 10px;
+	background: black;
+	box-shadow: inset 0 0 20px rgba(245, 245, 245, 0.671);
+}
+::-webkit-Scrollbar-track{
+	margin-top: 80px;
+	border-radius: 10px;
+}
+.intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+}
+.heading{
+    position: absolute; left:500px; top:5px;
+}
+.heading-two{
+    position: absolute; left:600px; top:60px;
+}
+.img-fluid{
+    padding-top: 165px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
+}
+.heading-flex{
+    position: absolute;left:420px;top:280px;
+}
+.heading-flex1{
+    font-size:75%;
+    position:absolute;left:445px;top:310px;
+}
+.img-fluid1{
+    position:absolute;padding-left:750px;top:150px;
+}
+.heading-flex2{
+    position: absolute;left:740px;top:280px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+}
+.heading-flex3{
+    position: absolute;left: 800px;top:308px;
+	font-size:90%;
+}
+.circle {
+	height: 50px;
+	width: 50px;
+	background-color:#75E3EA;
+	border-radius: 50%;
+	position: absolute;left:1200px;top:20px;
+  }
+.circle1{
+	position: absolute;
+	left: 100px;top:150px;
+	height: 50px;
+	width: 50px;
+	background-color:#FFC278;
+	border-radius: 50%;
+}
