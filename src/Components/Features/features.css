@@ -1,17 +1,17 @@
 .fheading{
-    position: absolute;left:180px;top:1250px;
+    position: absolute;left:180px;top:2100px;
 }
 .container1{
-    position:absolute;padding-top: 1050px;padding-left: 180px;
+    position:absolute;padding-top: 920px;padding-left: 180px;
 }
 .container2{
-    position:absolute;padding-top: 1050px;padding-left: 465px;
+    position:absolute;padding-top: 920px;padding-left: 465px;
 }
 .container3{
-    position:absolute;padding-top: 1050px;padding-left: 750px;
+    position:absolute;padding-top: 920px;padding-left: 750px;
 }
 .container4{
-    position:absolute;padding-top: 1050px;padding-left: 1050px;
+    position:absolute;padding-top: 920px;padding-left: 1050px;
 }
 .listing-four{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -25,16 +25,16 @@
 	font-weight: 510;
 }
 .about-one{
-    position: absolute;left:190px;top:1550px;width:255px;height:56px;
+    position: absolute;left:290px;top:2430px;width:255px;height:56px;
 }
 .about-two{
-    position: absolute;left:470px;top:1550px;width:255px;height:56px;
+    position: absolute;left:570px;top:2430px;width:255px;height:56px;
 }
 .about-three{
-    position: absolute;left:760px;top:1550px;width:255px;height:56px;
+    position: absolute;left:860px;top:2430px;width:255px;height:56px;
 }
 .about-four{
-    position: absolute;left:1060px;top:1550px;width:255px;height:56px;
+    position: absolute;left:1160px;top:2430px;width:255px;height:56px;
 }
 .circle7{
 	height: 50px;

@@ -4,25 +4,25 @@
 	font-weight: bold;
 }
 .join1{
-    position: absolute;top:3500px;left:150px;
+    position: absolute;top:4400px;left:150px;
 }
 .join2{
-    position:absolute;left:200px;top:3520px;width:444px;height:128px;
+    position:absolute;left:200px;top:4420px;width:444px;height:128px;
 }
 .join3{
-    position: absolute;left:590px;top:3605px;
+    position: absolute;left:590px;top:4505px;
 }
 .join4{
-    position: absolute;left:735px;top:3704px;
+    position: absolute;left:735px;top:4604px;
 }
 .join5{
-    position: absolute;left:919px;top:3500px;
+    position: absolute;left:919px;top:4400px;
 }
 .join6{
-    position: absolute;left:800px;top:3607px;
+    position: absolute;left:800px;top:4507px;
 }
 .button{
-    position: absolute;left: 200px;top:3680px;
+    position: absolute;left: 200px;top:4580px;
 	background-color:white;
 	border-radius:9px;
 	border:1px solid #8C30F5;
@@ -43,7 +43,7 @@
 	top:1px;
 }
 .vector{
-    position: absolute;left:863.25px;top:3660px;width: 154.01px;height: 55.5px;
+    position: absolute;left:863.25px;top:4560px;width: 154.01px;height: 55.5px;
     transform: rotate(10deg);
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 25px;

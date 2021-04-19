@@ -23,31 +23,31 @@ body{
 	font-size: large;
 }
 .heading{
-    position: absolute; left:500px; top:5px;
+    position: absolute; left:500px; top:28em;
 }
 .heading-two{
-    position: absolute; left:600px; top:60px;
+    position: absolute; left:600px; top:30em;
 }
 .img-fluid{
     padding-top: 165px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
 }
 .heading-flex{
-    position: absolute;left:420px;top:280px;
+    position: absolute;left:420px;top:auto;
 }
 .heading-flex1{
     font-size:75%;
-    position:absolute;left:445px;top:310px;
+    position:absolute;left:445px;top:99em;
 }
 .img-fluid1{
-    position:absolute;padding-left:750px;top:150px;
+    position:absolute;padding-left:750px;top:72em;
 }
 .heading-flex2{
-    position: absolute;left:740px;top:280px;
+    position: absolute;left:740px;top:1280px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: large;
 }
 .heading-flex3{
-    position: absolute;left: 800px;top:308px;
+    position: absolute;left: 800px;top:1318px;
 	font-size:90%;
 }
 .circle {
