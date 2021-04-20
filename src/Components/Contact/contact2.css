@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+.name{
+    position: absolute;
+    width: 517px;
+    height: 73px;
+    left: 52%;
+    top: 703%;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: normal;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.mobilenumber{
+    position: absolute;
+    width: 517px;
+    height: 73px;
+    left: 52%;
+    top: 721%;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+border-color:#D6B1FF ;
+
+color: #18191F;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.email{
+    position: absolute;
+    width: 517px;
+    height: 73px;
+    left: 52%;
+    top: 737%;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.message{
+    position: absolute;
+    width: 517px;
+    height: 150px;
+    left: 52%;
+    top: 754%;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.submit{
+    position: absolute;
+    width: 144px;
+    height: 62px;
+    left: 65%;
+    top: 781%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.2em;
+    border-radius: 8px;
+    border: none;
+    color:#D2D3C9;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: #8C30F5;
+border-radius: 8px;
+
+
+}
+::placeholder{
+    color: 
+    black
+    ;
+}
+@media (min-width: 364px) and (max-width: 480px) {
+    .name{
+      position: absolute;
+      width: 90%;
+      height: 73px;
+      left: 20px;
+      top: 540px;
+      
+      background: #D6B1FF;
+      border-radius: 25px;
+      font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: normal;
+  
+  /* Text / Gray 900 */
+  
+  color: #18191F;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  .mobilenumber{
+      position: absolute;
+      width: 300px;
+      height: 60px;
+      left: 20px;
+      top: 650px;
+      
+      background: #D6B1FF;
+      border-radius: 25px;
+      font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'liga' off;
+  
+  /* Text / Gray 900 */
+  
+  border-color:#D6B1FF ;
+  
+  color: #18191F;
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  .email{
+      position: absolute;
+      width: 300px;
+      height: 60px;
+      left: 20px;
+      top: 760px;
+      
+      background: #D6B1FF;
+      border-radius: 25px;
+      font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'liga' off;
+  
+  /* Text / Gray 900 */
+  
+  color: #18191F;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  .message{
+      position: absolute;
+      width: 300px;
+      height: 100px;
+      left: 20px;
+      top: 860px;
+      
+      background: #D6B1FF;
+      border-radius: 25px;
+      font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'liga' off;
+  
+  /* Text / Gray 900 */
+  
+  color: #18191F;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  .submit{
+      position: absolute;
+      width: 144px;
+      height: 62px;
+      left: 90px;
+      top:1000px;
+  
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size:1.2em;
+      border-radius: 8px;
+      border: none;
+      color:#D2D3C9;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background: #8C30F5;
+  border-radius: 8px;
+  
+  
+  }
+  }
