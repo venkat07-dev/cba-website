@@ -19,7 +19,7 @@ function Contact()
                    
                     
                    
-        <h1 className="txt">Reach to us</h1>
+        <h1 className="txt">Reach to us!</h1>
         <p className="p">Let’s connect to extend our opportunities</p>
         </div>
 

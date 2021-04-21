@@ -32,11 +32,11 @@ body{
     padding-top: 165px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
 }
 .heading-flex{
-    position: absolute;left:420px;top:auto;
+    position: absolute;left:420px;top:1280px;
 }
 .heading-flex1{
     font-size:75%;
-    position:absolute;left:445px;top:99em;
+    position:absolute;left:445px;top:1315px;
 }
 .img-fluid1{
     position:absolute;padding-left:750px;top:72em;
@@ -47,7 +47,7 @@ body{
 	font-size: large;
 }
 .heading-flex3{
-    position: absolute;left: 800px;top:1318px;
+    position: absolute;left: 800px;top:1315px;
 	font-size:90%;
 }
 .circle {
@@ -55,11 +55,11 @@ body{
 	width: 50px;
 	background-color:#75E3EA;
 	border-radius: 50%;
-	position: absolute;left:1200px;top:20px;
+	position: absolute;left:1200px;top:1020px;
   }
 .circle1{
 	position: absolute;
-	left: 100px;top:150px;
+	left: 100px;top:1150px;
 	height: 50px;
 	width: 50px;
 	background-color:#FFC278;

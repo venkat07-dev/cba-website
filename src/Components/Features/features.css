@@ -1,17 +1,17 @@
 .fheading{
-    position: absolute;left:180px;top:2100px;
+    position: absolute;left:150px;top:2250px;
 }
 .container1{
-    position:absolute;padding-top: 920px;padding-left: 180px;
+    position:absolute;padding-top: 1050px;padding-left: 30px;
 }
 .container2{
-    position:absolute;padding-top: 920px;padding-left: 465px;
+    position:absolute;padding-top: 1050px;padding-left: 310px;
 }
 .container3{
-    position:absolute;padding-top: 920px;padding-left: 750px;
+    position:absolute;padding-top: 1050px;padding-left: 590px;
 }
 .container4{
-    position:absolute;padding-top: 920px;padding-left: 1050px;
+    position:absolute;padding-top: 1050px;padding-left: 850px;
 }
 .listing-four{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -25,28 +25,28 @@
 	font-weight: 510;
 }
 .about-one{
-    position: absolute;left:290px;top:2430px;width:255px;height:56px;
+    position: absolute;left:145px;top:2540px;width:255px;height:56px;
 }
 .about-two{
-    position: absolute;left:570px;top:2430px;width:255px;height:56px;
+    position: absolute;left:425px;top:2540px;width:255px;height:56px;
 }
 .about-three{
-    position: absolute;left:860px;top:2430px;width:255px;height:56px;
+    position: absolute;left:705px;top:2540px;width:255px;height:56px;
 }
 .about-four{
-    position: absolute;left:1160px;top:2430px;width:255px;height:56px;
+    position: absolute;left:980px;top:2540px;width:255px;height:56px;
 }
 .circle7{
 	height: 50px;
 	width: 50px;
 	background-color:#FFC278;
 	border-radius: 50%;
-	position: absolute;left:1285px;top:1650px;
+	position: absolute;left:1285px;top:2650px;
 }
 .circle8{
 	height: 50px;
 	width: 50px;
 	background-color:#75E3EA;
 	border-radius: 50%;
-	position: absolute;left:0px;top:1800px;
+	position: absolute;left:0px;top:2800px;
 }

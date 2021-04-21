@@ -1,85 +1,85 @@
 .heading6{
-    position:absolute;left:150px;top:2600px;width:548px;height:128px;
+    position:absolute;left:150px;top:2700px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:50px;
 }
 .para6{
-    position:absolute;left:150px;top:2760px;width:548px;height:128px;
+    position:absolute;left:150px;top:2850px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 }
 .svg1{
-    position: absolute;left:600px;top:2650px;
-}
-.svg2{
-    position: absolute;left:613px;top:2650px;
-}
-.svg3{
-    position: absolute;left:625px;top:2659px;
-}
-.achieve-fluid{
-    position: absolute;left:660px;top:2610px;
-}
-.achieve-fluid-two{
-    position: absolute;left:660px;top:2655px;
-}
-.svg4{
     position: absolute;left:600px;top:2750px;
 }
+.svg2{
+    position: absolute;left:613px;top:2750px;
+}
+.svg3{
+    position: absolute;left:625px;top:2759px;
+}
+.achieve-fluid{
+    position: absolute;left:660px;top:2710px;
+}
+.achieve-fluid-two{
+    position: absolute;left:660px;top:2755px;
+}
+.svg4{
+    position: absolute;left:600px;top:2850px;
+}
 .svg5{
-    position: absolute;left:609px;top:2750px;
+    position: absolute;left:609px;top:2850px;
 }
 .svg6{
-    position: absolute;left:625px;top:2750px;
+    position: absolute;left:625px;top:2850px;
 }
 .achieve-fluid-three{
-    position: absolute;left:660px;top:2700px;
+    position: absolute;left:660px;top:2810px;
 }
 .achieve-fluid-four{
-    position: absolute;left:660px;top:2750px;
+    position: absolute;left:660px;top:2855px;
 }
 .svg7{
-    position: absolute;left:900px;top:2648px;
+    position: absolute;left:900px;top:2748px;
 }
 .svg8{
-    position: absolute;left:900px;top:2657px;
+    position: absolute;left:900px;top:2757px;
 }
 .svg9{
-    position: absolute;left:910px;top:2675px;
+    position: absolute;left:910px;top:2775px;
 }
 .achieve-fluid-three1{
-    position: absolute;left:950px;top:2604px;
+    position: absolute;left:950px;top:2704px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .achieve-fluid-four1{
-    position: absolute;left:950px;top:2651px;
+    position: absolute;left:950px;top:2751px;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
 }
 .svg10{
-    position: absolute;left:900px;top:2750px;
+    position: absolute;left:900px;top:2850px;
 }
 .svg11{
-    position: absolute;left:900px;top:2768px;
+    position: absolute;left:900px;top:2868px;
 }
 .svg12{
-    position: absolute;left:916px;top:2750px;
+    position: absolute;left:916px;top:2850px;
 }
 .svg13{
-    position: absolute;left:916px;top:2758px;
+    position: absolute;left:916px;top:2858px;
 }
 .svg14{
-    position: absolute;left:916px;top:2769px;
+    position: absolute;left:916px;top:2869px;
 }
 .svg15{
-    position: absolute;left:916px;top:2777px;
+    position: absolute;left:916px;top:2877px;
 }
 .achieve-fluid-three2{
-    position: absolute;left:960px;top:2707px;
+    position: absolute;left:960px;top:2807px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .achieve-fluid-four2{
-    position: absolute;left:960px;top:2750px;
+    position: absolute;left:960px;top:2850px;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
 }
