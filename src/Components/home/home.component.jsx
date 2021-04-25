@@ -4,7 +4,7 @@ import bgimage from "./Home/Image.png";
 
 function Home() {
     return(
-        <div className="img">
+        <div className="img" >
             {/* <img scr={bgimage} alt="" /> */}
             <h1 className="slg1">
                 Unleash your badminton skills

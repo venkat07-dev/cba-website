@@ -9,7 +9,7 @@ import imagetwo from "../Special/images/guy-img.png";
 function Special(){
     return(
         <div>
-            <div class="special">
+            <div class="special" id="special">
         <h2 class="special1">Why we are special?</h2>
     </div>
     <div class="zig-zag">

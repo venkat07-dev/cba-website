@@ -2,22 +2,27 @@
 
 /* -------------------------------------------------------For Desktop Portion --------------------------------------------------------*/
 .container{
-
-    width: 80%;
+    position: fixed;
+    width: 100%;
     margin: 0 auto;
+    margin-top: -1.7%;
+    background-color: white;
+    z-index: 10;
+    padding: 10px;
+    box-sizing: border-box;
     }
 
 header{
     background-color: white;
     padding: 1em 0;
-    width: 130%;
+    width: 100%;
 }
 
 .logo{
         color:black;
         font-weight: bold ;
         font-size: 1cm;
-        margin-left: 35%;
+        margin-left: 45%;
         padding-top: 5px;
         position: absolute;
         

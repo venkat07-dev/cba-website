@@ -7,7 +7,7 @@ import youtube from "../footer/Footer/YT2.png";
 
 function Footer() {
     return(
-        <footer  >
+        <footer  id="footer">
             <p href="home" className="logo2">Landify</p>
             <p className="dev">© 2021 All rights reserved.<br/> Developed by Skillscy.</p>
             <ul className="icons2">

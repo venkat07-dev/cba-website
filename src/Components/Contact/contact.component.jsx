@@ -8,21 +8,24 @@ function Contact()
     
     return(
 
-        <div className="text">
-            <img className="img2" src={background} alt=""></img>
+        <body >
+        <div className="text" >
             
-<div className="map">
-<iframe className="map1" id="map" src="https://maps.google.com/maps?q=chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"  ></iframe>
-<a href="https://www.embedgooglemap.net"></a>      
-</div>
-                
-                   
+                    <img className="img2" src={background} alt=""></img>
                     
-                   
-        <h1 className="txt">Reach to us!</h1>
-        <p className="p">Let’s connect to extend our opportunities</p>
-        </div>
-
+                    <div className="map">
+                    <iframe className="map1"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1/117%20,AKS%20Thoppu%20Mandapam%20,camp,%20Tamil%20Nadu%20+(Your%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    <a href="https://www.mapsdirections.info/en/measure-map-radius/"></a></div>
+                                    
+                           
+                            
+                           
+                <h1 className="txt" id="contact">Reach to us</h1>
+                <p className="p">Let’s connect to extend our opportunities</p>
+                </div>
+        
+        </body>
 
 
     

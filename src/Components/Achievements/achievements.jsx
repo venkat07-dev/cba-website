@@ -16,8 +16,8 @@ import svgtwelve from "../Achievements/images/vec16.png";
 
 function Achievements(){
     return (
-        <div>
-            <div class="achievements">
+        <div id="achieve">
+            <div class="achievements" >
                 <h1 class="heading6">Our 8 years of achievements</h1>
                 <p class="para6">And still marching towards a great goal...</p>
                 <img class="svg1" src={svgone} alt=""/>

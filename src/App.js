@@ -15,7 +15,7 @@ import Contact1 from './Components/Contact/contact2.component';
 function App() {
   return (
       <div>
-      <Navbar/>
+      <Navbar />
       <Home/>
       <Intro/>
       <Special/>

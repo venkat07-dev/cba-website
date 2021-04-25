@@ -6,26 +6,30 @@ import facebook from "../navbar/Navbar/fb.png";
 import instagram from "../navbar/Navbar/insta.png";
 import youtube from "../navbar/Navbar/YT.png";
 import twitter from "../navbar/Navbar/twitter.png";
+import { Link,animateScroll as scroll } from "react-scroll";
 
-function Navbar() {
+
+function Navbar(props ) {
   return (
     
+    
     <header>
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="container">
-        <a href="home" className="logo">
+        <a  className="logo" onClick={() => scroll.scrollToTop()}>
           Landify
         </a>
-        <nav>
+        <nav className="nav">
           <ul className="navbar">
             <li>
-              <a href="about">About</a>
+              <Link to="intro" spy={true} smooth={true} duration={1000}>About</Link>
             </li>
             <li>
-              <a href="contact">Contact</a>
+            <Link  to="contact" offset={50} spy={true} smooth={true} duration={1000}>Contact</Link>
             </li>
             <li>
-              <a href="Admin">Admin</a>
+            <Link to="join" smooth={true} duration={1000}>Admin</Link>
             </li>
           </ul>
 
@@ -63,6 +67,8 @@ function Navbar() {
           <img src={twitter} alt="" />
         </div>
       </div>
+
+      
 
     </header>
   );

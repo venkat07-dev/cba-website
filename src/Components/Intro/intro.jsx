@@ -3,10 +3,11 @@ import "./intro.css"
 import image from "../Intro/images/illustration.png";
 import imagetwo from "../Intro/images/illustration-1.png";
 
+
 function Intro(){
     return(
-        <div>
-            <div class="intro">
+        <div id="intro">
+            <div class="intro"  >
         <h1 class="heading">Christopher Badmiton</h1>
         <h1 class="heading-two">Academy</h1>
         <img class="img-fluid" src={image} alt=""/>
@@ -18,7 +19,7 @@ function Intro(){
     <img class="img-fluid1" src={imagetwo} alt=""/>
     <p class="heading-flex2">Knights Mount academy</p>
     <p class="heading-flex3">Urapakkam</p>
-        </div>
+    </div>
     );
          
 }

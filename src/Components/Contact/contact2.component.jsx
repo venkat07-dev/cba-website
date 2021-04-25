@@ -6,7 +6,7 @@ function Contact1()
     
     return(
         
-<div class="src">
+<div class="src" >
     <form>
     <div className="form">
       <input className="name" type="text"  name="name" placeholder="Name"/>
