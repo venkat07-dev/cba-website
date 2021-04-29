@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact.css';
+import "./contact.css";
 import background from  './bg.png';
 
 //import map from '../assets/map1.png'
@@ -9,9 +9,9 @@ function Contact()
     return(
 
         <body >
-        <div className="text" >
+        <div className="text contact" >
             
-                    <img className="img2" src={background} alt=""></img>
+                    <img className="img2 reach" src={background} alt=""></img>
                     
                     <div className="map">
                     <iframe className="map1"
@@ -23,19 +23,20 @@ function Contact()
                            
                 <h1 className="txt" id="contact">Reach to us</h1>
                 <p className="p">Let’s connect to extend our opportunities</p>
-                 </div>
-                 <div class="src" >
-    <form>
-    <div className="form">
-      <input className="name" type="text"  name="name" placeholder="Name"/>
-      <input className="mobilenumber" type="text"  name="mobile Number" placeholder="Mobile Number"/>
-      <input className="email"  type="text" id="Email" name="lastname" placeholder="Email" />
-      <input  className="message" name="subject" placeholder="Message" />
-    <button className="submit" >Send Now</button>
-    
-    </div>
-    </form>
-</div>
+                <div class="src" >
+                    <form>
+                    <div className="form">
+                    <input className="name" type="text"  name="name" placeholder="Name"/>
+                    <input className="mobilenumber" type="text"  name="mobile Number" placeholder="Mobile Number"/>
+                    <input className="email"  type="text" id="Email" name="lastname" placeholder="Email" />
+                    <input  className="message" name="subject" placeholder="Message" />
+                    <button className="submit" >Send Now</button>
+                    
+                    </div>
+                    </form>
+                </div>
+                </div>
+
         
         </body>
 

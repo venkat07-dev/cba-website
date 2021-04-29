@@ -23,7 +23,11 @@ body{
 	font-size: large;
 }
 .heading{
-    position: absolute; left:500px; top:28em;
+    position: absolute;
+    left: 35%;
+    top: 28em;
+    width: 30%;
+    text-align: center;
 }
 .heading-two{
     position: absolute; left:600px; top:30em;
@@ -64,4 +68,38 @@ body{
 	width: 50px;
 	background-color:#FFC278;
 	border-radius: 50%;
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+	.heading{
+		width:20%;
+		left:750px;
+	}
+	
+	.img-fluid{
+		top:100%;
+		padding-left:600px;
+	}
+	.heading-flex{
+		top:118.5%;
+		padding-left:200px;
+	}
+	.img-fluid1{
+		padding-left: 1100px;
+	}
+	.heading-flex1{
+		padding-left: 200px;
+	}
+	.heading-flex2{
+		padding-left: 350px;
+	}
+	.heading-flex3{
+		padding-left:360px ;
+	}
+	.circle{
+		left:1700px;
+	}
+	
+
 }

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width :1700px){
 
   .img{
-    width:135%;
+    width:124%;
     height: 916.99px;
     
     margin:auto;
@@ -11,45 +14,104 @@
 }
     
 .slg1{
-    color:white ;    
-font-family: Manrope;
-font-size: 77px;
-font-style: normal;
-font-weight: 800;
-line-height: 98px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-width: 540px;
-height: 294px;
-left: 70%;
-top: 205px;
+    color: white;
+    font-family: Manrope;
+    font-size: 500%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 29%;
+    
+    left: 65%;
+    top: 20%;
 }
 
 .slg2{
     color: white;
     position: absolute;
-    width: 540px;
+    width: 30%;
     height: 32px;
-    left: 70%;
-    top: 500px;
+    left: 65%;
+    top: 65%;
     font-family: Manrope;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 101%;
     line-height: 32px;
 }
 
 .btn{
     color: white;
-    font-size: 20px;
-position:absolute;
-width: 196px;
-height: 62px;
-left: 70%;
-top: 600px;
-background: #8C30F5;
-border-radius: 8px;
+    font-size: 101%;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    left: 65%;
+    top: 75%;
+    background: #8C30F5;
+    border-radius: 20px;
+
+}
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+
+    .img{
+        width:125%;
+        height: 916.99px;
+        
+        margin:auto;
+        background-image: url('Home/Image.png');
+        background-size: 100% 100%;
+        margin-top: 50px;
+    }
+        
+    .slg1{
+        color:white ;    
+    font-family: Manrope;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 540px;
+    height: 294px;
+    left: 70%;
+    top: 205px;
+    }
+    
+    .slg2{
+        color: white;
+        position: absolute;
+        width: 540px;
+        height: 32px;
+        left: 70%;
+        top: 500px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .btn{
+        color: white;
+        font-size: 20px;
+    position:absolute;
+    width: 196px;
+    height: 62px;
+    left: 70%;
+    top: 600px;
+    background: #8C30F5;
+    border-radius: 8px;
+    
+    }
 
 }
 

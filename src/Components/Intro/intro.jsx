@@ -8,8 +8,8 @@ function Intro(){
     return(
         <div id="intro">
             <div class="intro"  >
-        <h1 class="heading">Christopher Badmiton</h1>
-        <h1 class="heading-two">Academy</h1>
+        <h1 class="heading">Christopher Badmiton Academy</h1>
+        
         <img class="img-fluid" src={image} alt=""/>
         <p class="heading-flex" >SCBC Academy</p>
         <p class="heading-flex1">Nanganallur</p>

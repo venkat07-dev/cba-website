@@ -1,9 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
-/* -------------------------------------------------------For Desktop Portion --------------------------------------------------------*/
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width :1700px){
 
 
-.container{
+.head{
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -1.7%;
+    background-color: white;
+    z-index: 10;
+    
+    box-sizing: border-box;
+    }
+
+header{
+    background-color: white;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.logo{
+        color:black;
+        font-weight: bold ;
+        font-size: 1cm;
+        margin-left: 45%;
+        padding-top: 5px;
+        position: absolute;
+        
+        
+}
+.logo:hover{
+  cursor: pointer;
+}
+
+nav{
+    width:100%;
+}
+
+.navbar{
+            float: left;
+            padding-top: 20px;
+            color: black;
+            
+            list-style-type: none;
+            margin-left: 5%;
+            
+             display: flex;  
+
+}
+
+
+li a{
+    text-decoration:none;
+    font-weight: 600;
+    padding: 1em; 
+    color: black;
+    font-size: 120%;
+}
+
+li a:hover{
+    background: white;
+    cursor: pointer;
+}
+
+.icons{
+    float: right;
+    list-style-type: none;
+    margin-right: 5%;
+    display: flex;
+    
+
+}
+.dropdown{
+    display: none;
+}
+
+.dropdown2{
+    display: none;
+}
+
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+  .head{
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -25,7 +108,7 @@ header{
         font-weight: bold ;
         font-size: 1cm;
         margin-left: 45%;
-        padding-top: 5px;
+        margin-top: 1%;
         position: absolute;
         
         
@@ -41,7 +124,7 @@ nav{
             color: black;
             
             list-style-type: none;
-            margin-left: 5%;
+            margin-left: 4%;
             
              display: flex;  
 
@@ -75,11 +158,12 @@ li a:hover{
 .dropdown2{
     display: none;
 }
+}
 
 /* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .container,.navbar{
+    .head,.navbar{
         width: 100%;
         
         }
@@ -191,7 +275,7 @@ li a:hover{
 
 
 @media (min-width: 481px) and (max-width: 900px){
-  .container,.navbar{
+  .head,.navbar{
     width: 100%;
   }
 

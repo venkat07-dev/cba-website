@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width :1700px){
+
 
 footer{
     
@@ -7,21 +11,20 @@ footer{
     left: 0%;
     width:100%;
     background-color: black;
-    height: 80px;
+    height: 15%;
     text-align: center;
 }
 
 .logo2{
     
     position: absolute;
-    font-weight: bold ;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 300%;
     color: white;
-    bottom:30px;
-    left: 50px;
+    bottom: 30%;
+    left: 5%;
     text-align: center;
-    margin:auto;
-    padding-top: 20px;            
+    margin: auto;                 
 }
 
 .dev{
@@ -29,29 +32,90 @@ footer{
     font-family: Manrope;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color:whitesmoke;
+    font-size: 120%;
+    line-height: 110%;
+    color: whitesmoke;
     display: inline-block;
-    margin-left:300px;
-    margin-top: 20px;
+    margin-left: 15%;
+    margin-top: 2.1%;
 }
 
 .icons2{
     float: right;
-    
-    height: 60px;
-         list-style-type: none;
-         margin: 0;
-         display: flex;
+    list-style-type: none;
+    margin-top: 1%;
+    margin-right: 2%;
+    display: flex;
+
 }
 
 li img {
     padding: 1em;
+    height: 70%;
 }
 
 .dropdown3{
     display: none;
+}
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+
+    
+footer{
+    
+    position: absolute;
+    top: 814%;
+    left: 0%;
+    width:100%;
+    background-color: black;
+    height: 15%;
+    text-align: center;
+}
+
+.logo2{
+    
+    position: absolute;
+    font-weight: bold;
+    font-size: 300%;
+    color: white;
+    bottom: 30%;
+    left: 5%;
+    text-align: center;
+    margin: auto;          
+}
+
+.dev{
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120%;
+    line-height: 110%;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.icons2{
+    float: right;
+    list-style-type: none;
+    margin-top: 2%;
+    margin-right: 2%;
+    display: flex;
+
+}
+
+li img {
+    padding: 1em;
+    height: 70%;
+}
+
+.dropdown3{
+    display: none;
+}
 }
 
 /* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */

@@ -16,7 +16,7 @@ function Navbar(props ) {
     <header>
       
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      <div className="container">
+      <div className="head">
         <a  className="logo" onClick={() => scroll.scrollToTop()}>
           Landify
         </a>
