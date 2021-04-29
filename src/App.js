@@ -9,7 +9,7 @@ import Achievements from "./Components/Achievements/achievements";
 import Fame from "./Components/Fame/fame";
 import Join from "./Components/Join/join";
 import Contact from './Components/Contact/contact.component';
-import Contact1 from './Components/Contact/contact2.component';
+
 
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
       <Achievements/>
       <Fame/>
       <Join/>
+      
       <Contact/>
-      <Contact1/>
       <Footer/>
       
       </div>

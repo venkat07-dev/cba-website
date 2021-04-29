@@ -23,7 +23,19 @@ function Contact()
                            
                 <h1 className="txt" id="contact">Reach to us</h1>
                 <p className="p">Let’s connect to extend our opportunities</p>
-                </div>
+                 </div>
+                 <div class="src" >
+    <form>
+    <div className="form">
+      <input className="name" type="text"  name="name" placeholder="Name"/>
+      <input className="mobilenumber" type="text"  name="mobile Number" placeholder="Mobile Number"/>
+      <input className="email"  type="text" id="Email" name="lastname" placeholder="Email" />
+      <input  className="message" name="subject" placeholder="Message" />
+    <button className="submit" >Send Now</button>
+    
+    </div>
+    </form>
+</div>
         
         </body>
 

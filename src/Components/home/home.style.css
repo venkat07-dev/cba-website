@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
   .img{
-    width:125%;
+    width:135%;
     height: 916.99px;
     
     margin:auto;
@@ -22,7 +22,7 @@ text-align: left;
 position: absolute;
 width: 540px;
 height: 294px;
-left: 900px;
+left: 70%;
 top: 205px;
 }
 
@@ -31,7 +31,7 @@ top: 205px;
     position: absolute;
     width: 540px;
     height: 32px;
-    left: 900px;
+    left: 70%;
     top: 500px;
     font-family: Manrope;
     font-style: normal;
@@ -46,7 +46,7 @@ top: 205px;
 position:absolute;
 width: 196px;
 height: 62px;
-left: 900px;
+left: 70%;
 top: 600px;
 background: #8C30F5;
 border-radius: 8px;
