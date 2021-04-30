@@ -5,15 +5,18 @@
 
 
 footer{
-    
+
     position: absolute;
-    top: 740%;
+    margin-top:0vh;
     left: 0%;
     width:100%;
     background-color: black;
     height: 15%;
     text-align: center;
-}
+}  
+
+
+
 
 .logo2{
     
@@ -67,7 +70,7 @@ footer{
     
     position: absolute;
     
-    top: 560%;
+    top: 0vh;
     left: 0%;
     width:100%;
     background-color: black;

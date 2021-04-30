@@ -5,7 +5,8 @@ import instagram from "../footer/Footer/insta 2.png";
 import twitter from "../footer/Footer/twitter2.png";
 import youtube from "../footer/Footer/YT2.png";
 
-function Footer() {
+
+function Footer({children}) {
 
     function Facebook(){
 
@@ -59,6 +60,9 @@ function Footer() {
                         <img src={twitter} alt="" />
                     </div>
                 </div>
+                <div>
+     
+    </div>
         </footer>
         
     );

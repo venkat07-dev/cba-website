@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.style.css"
-import bgimage from "./Home/Image.png";
 
 function Home() {
     return(

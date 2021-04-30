@@ -41,9 +41,9 @@ function Navbar(props ) {
       
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="head">
-        <a  className="logo" onClick={() => scroll.scrollToTop()}>
+        <h1  className="logo" onClick={() => scroll.scrollToTop()}>
           CBA
-        </a>
+        </h1>
         <nav className="nav">
           <ul className="navbar">
             <li>

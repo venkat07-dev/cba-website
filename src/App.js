@@ -12,9 +12,13 @@ import Contact from './Components/Contact/contact.component';
 
 
 
+
+
+
+
 function App() {
   return (
-      <div >
+      <div  >
       <Navbar />
       <Home/>
       <Intro/>
@@ -23,15 +27,19 @@ function App() {
       <Achievements/>
       <Fame/>
       <Join/>
-      
-      <Contact/>
       <Footer/>
+      <Contact/>
+      
       
       </div>
             
+
+      
         
   
   );
 }
+
+
 
 export default App;

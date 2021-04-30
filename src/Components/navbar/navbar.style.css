@@ -12,6 +12,7 @@
     margin-top: -1.7%;
     background-color: white;
     z-index: 10;
+    left: 0%;
     
     box-sizing: border-box;
     }
@@ -95,6 +96,7 @@ li a:hover{
     z-index: 10;
     padding: 10px;
     box-sizing: border-box;
+    left: 0%;
     }
 
 header{
