@@ -78,7 +78,7 @@
 @media only screen and (min-width:1800px){
 
 	.special{
-		position: absolute;left: 800px;top:1390px;
+		position: absolute;left: 830px;top:1390px;
 		font-family: 'Source Sans pro',sans-serif;
 	}
 	.shettleimg{
@@ -94,22 +94,22 @@
 		font-family: 'Source Sans Pro', sans-serif;
 	}
 	.heading0{
-		position: absolute;left:980px;top:1500px;
+		position: absolute;left:1150px;top:1500px;
 	}
 	.para{
-		position:absolute;left:950px;top:1560px;width:444px;height:128px;
+		position:absolute;left:1100px;top:1560px;width:444px;height:128px;
 	}
 	.heading1{
-		position: absolute;left:980px;top:1680px;
+		position: absolute;left:1150px;top:1680px;
 	}
 	.para1{
-		position:absolute;left:950px;top:1750px;width:444px;height:128px;
+		position:absolute;left:1100px;top:1750px;width:444px;height:128px;
 	}
 	.heading2{
-		position: absolute;left:980px;top:1850px;
+		position: absolute;left:1150px;top:1850px;
 	}
 	.para2{
-		position:absolute;left:950px;top:1910px;width:444px;height:128px;
+		position:absolute;left:1100px;top:1910px;width:444px;height:128px;
 	}
 	.listing-two{
 		font-family: 'Source Sans Pro', sans-serif;
@@ -143,7 +143,7 @@
 		width: 50px;
 		background-color:#FFC278;
 		border-radius: 50%;
-		position: absolute;left:1480px;top:1820px;
+		position: absolute;left:1800px;top:1820px;
 	}
 	.circle6{
 		height: 50px;
