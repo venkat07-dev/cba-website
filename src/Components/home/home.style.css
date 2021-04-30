@@ -5,12 +5,12 @@
 
   .img{
     width:124%;
-    height: 916.99px;
+    height: 60em;
     
     margin:auto;
     background-image: url('Home/Image.png');
     background-size: 100% 100%;
-    margin-top: 50px;
+    margin-top: 0%;
 }
     
 .slg1{
@@ -25,8 +25,8 @@
     position: absolute;
     width: 29%;
     
-    left: 65%;
-    top: 20%;
+    left: 66%;
+    top: 10rem;
 }
 
 .slg2{
@@ -34,13 +34,13 @@
     position: absolute;
     width: 30%;
     height: 32px;
-    left: 65%;
-    top: 65%;
+    left: 66%;
+    top: 31em;
     font-family: Manrope;
     font-style: normal;
     font-weight: normal;
     font-size: 101%;
-    line-height: 32px;
+    line-height: 100%;
 }
 
 .btn{
@@ -49,8 +49,8 @@
     position: absolute;
     width: 10%;
     height: 8%;
-    left: 65%;
-    top: 75%;
+    left: 66%;
+    top: 36rem;
     background: #8C30F5;
     border-radius: 20px;
 
@@ -69,55 +69,54 @@
 
     .img{
         width:125%;
-        height: 916.99px;
+        height: 60em;
         
         margin:auto;
         background-image: url('Home/Image.png');
         background-size: 100% 100%;
-        margin-top: 50px;
+        margin-top: 0%;
     }
         
     .slg1{
         color:white ;    
     font-family: Manrope;
-    font-size: 77px;
+    font-size: 500%;
     font-style: normal;
     font-weight: 800;
-    line-height: 98px;
+    line-height: 100%;
     letter-spacing: 0em;
     text-align: left;
     position: absolute;
-    width: 540px;
-    height: 294px;
+    width: 29%;
     left: 70%;
-    top: 205px;
+    top: 13rem;
     }
     
     .slg2{
         color: white;
         position: absolute;
-        width: 540px;
-        height: 32px;
+        width: 30%;
+        
         left: 70%;
-        top: 500px;
+        top: 30rem;
         font-family: Manrope;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
-        line-height: 32px;
+        font-size: 101%;
+        line-height: 100%;
     }
     
     .btn{
         color: white;
-        font-size: 20px;
+        font-size: 101%;
     position:absolute;
-    width: 196px;
-    height: 62px;
+    width: 10%;
+    height: 8%;
     left: 70%;
-    top: 600px;
+    top: 35rem;
     background: #8C30F5;
-    border-radius: 8px;
-    box-shadow: 0 9px #999;
+    border-radius: 20px;
+    
 
     
     }

@@ -13,24 +13,24 @@ function Navbar(props ) {
 
   function Facebook(){
 
-    window.location.href="https://www.facebook.com/";
+    window.open("https://www.facebook.com/", "_blank");
 
   }
 
   function Twitter(){
 
-    window.location.href='https://twitter.com/';
+   window.open('https://twitter.com/', "_blank");
   }
 
   function Insta(){
 
-    window.location.href="https://www.instagram.com/";
+   window.open("https://www.instagram.com/", "_blank");
 
   }
 
   function Youtube(){
 
-    window.location.href="https://www.youtube.com/";
+   window.open("https://www.youtube.com/", "_blank");
 
   }
 

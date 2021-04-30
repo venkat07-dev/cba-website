@@ -29,6 +29,9 @@ footer{
     text-align: center;
     margin: auto;                 
 }
+.logo2:hover{
+    cursor: pointer;
+  }
 
 .dev{
     
@@ -51,6 +54,11 @@ footer{
     display: flex;
 
 }
+
+img:hover{
+
+    cursor: pointer;
+    }
 
 li img {
     padding: 1em;
@@ -90,6 +98,11 @@ footer{
     margin: auto;          
 }
 
+.logo2:hover{
+    cursor: pointer;
+  }
+
+
 .dev{
     
     font-family: Manrope;
@@ -112,10 +125,18 @@ footer{
 
 }
 
+
+
+
 li img {
     padding: 1em;
     height: 70%;
 }
+
+img:hover{
+
+    cursor: pointer;
+    }
 
 .dropdown3{
     display: none;

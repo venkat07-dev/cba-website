@@ -75,6 +75,12 @@ li a:hover{
     
 
 }
+
+img:hover{
+
+  cursor: pointer;
+  }
+
 .dropdown{
     display: none;
 }
@@ -96,7 +102,6 @@ li a:hover{
     z-index: 10;
     padding: 10px;
     box-sizing: border-box;
-    left: 0%;
     }
 
 header{
@@ -157,6 +162,12 @@ li a:hover{
     
 
 }
+
+img:hover{
+
+  cursor: pointer;
+  }
+
 .dropdown{
     display: none;
 }

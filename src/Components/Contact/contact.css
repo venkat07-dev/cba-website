@@ -241,7 +241,7 @@ border-radius: 8px;
     left: 14.5%;
   }
    #footer {
-    top:  565%;
+    top: 380rem;
   } 
 }
 @media only screen and (min-height: 861px) and (max-height: 1079px) {
@@ -252,7 +252,7 @@ border-radius: 8px;
     top: 8%;
   }
   #footer {
-    top:  676%;
+    top: 365rem;
   } 
 }
 @media only screen and (min-height: 768px) and (max-height: 860px) {
@@ -263,7 +263,7 @@ border-radius: 8px;
     top: 8%;
   }
    #footer {
-    top:  747%;
+    top: 360rem;
   } 
 }
 @media only screen and (min-height: 601px) and ( max-height: 767px) {
@@ -275,7 +275,7 @@ border-radius: 8px;
     top: 8%;
   }
    #footer {
-    top: 780%;
+    top: 349rem;
    
   } 
 }
@@ -288,7 +288,7 @@ border-radius: 8px;
     top: 8%;
   }
    #footer {
-    top:  965%;
+    top: 325rem;
     
   } 
 } 

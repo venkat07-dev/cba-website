@@ -23,7 +23,7 @@ function Contact()
                            
                 <h1 className="txt" id="contact">Reach to us</h1>
                 <p className="p">Let’s connect to extend our opportunities</p>
-                <div class="src" >
+                <div className="src" >
                     <form>
                     <div className="form">
                     <input className="name" type="text"  name="name" placeholder="Name"/>
