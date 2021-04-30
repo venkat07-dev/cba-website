@@ -10,6 +10,30 @@ import { Link,animateScroll as scroll } from "react-scroll";
 
 
 function Navbar(props ) {
+
+  function Facebook(){
+
+    window.location.href="https://www.facebook.com/";
+
+  }
+
+  function Twitter(){
+
+    window.location.href='https://twitter.com/';
+  }
+
+  function Insta(){
+
+    window.location.href="https://www.instagram.com/";
+
+  }
+
+  function Youtube(){
+
+    window.location.href="https://www.youtube.com/";
+
+  }
+
   return (
     
     
@@ -18,7 +42,7 @@ function Navbar(props ) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="head">
         <a  className="logo" onClick={() => scroll.scrollToTop()}>
-          Landify
+          CBA
         </a>
         <nav className="nav">
           <ul className="navbar">
@@ -29,22 +53,22 @@ function Navbar(props ) {
             <Link  to="contact" offset={50} spy={true} smooth={true} duration={1000}>Contact</Link>
             </li>
             <li>
-            <Link to="join" smooth={true} duration={1000}>Admin</Link>
+            <Link to="#" smooth={true} duration={1000}>Admin</Link>
             </li>
           </ul>
 
           <ul className="icons">
             <li >
-              <img src={facebook} alt="" />
+              <img src={facebook} alt="" onClick={Facebook} />
             </li>
             <li >
-              <img src={instagram} alt="" />
+              <img src={instagram} alt=""  onClick={Insta}/>
             </li>
             <li >
-              <img src={youtube} alt="" />
+              <img src={youtube} alt="" onClick={Youtube} />
             </li>
             <li >
-              <img src={twitter} alt="" />
+              <img src={twitter} alt="" onClick={Twitter}/>
             </li>
           </ul>
         </nav>

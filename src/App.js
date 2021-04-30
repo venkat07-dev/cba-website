@@ -14,7 +14,7 @@ import Contact from './Components/Contact/contact.component';
 
 function App() {
   return (
-      <div>
+      <div >
       <Navbar />
       <Home/>
       <Intro/>

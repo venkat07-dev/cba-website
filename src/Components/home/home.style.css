@@ -55,6 +55,13 @@
     border-radius: 20px;
 
 }
+.btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+ 
+  transform: translateY(4px);
+}
 }
 
 /* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
@@ -110,9 +117,19 @@
     top: 600px;
     background: #8C30F5;
     border-radius: 8px;
+    box-shadow: 0 9px #999;
+
     
     }
 
+    .btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+  
+  transform: translateY(4px);
+
+}
 }
 
 /* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
