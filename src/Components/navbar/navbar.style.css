@@ -95,8 +95,8 @@ img:hover{
 @media (min-width: 1800px) {
   .head{
     position: fixed;
-    width: 100%;
-    margin: 0 auto;
+    width: 101%;
+    margin-left:-1%;
     margin-top: -1.7%;
     background-color: white;
     z-index: 10;
