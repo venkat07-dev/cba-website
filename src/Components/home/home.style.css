@@ -16,7 +16,7 @@
 .slg1{
     color: white;
     font-family: Manrope;
-    font-size: 5rem;
+    font-size: 4.8rem;
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
@@ -35,7 +35,7 @@
     width: 30%;
     height: 32px;
     left: 66%;
-    top: 31em;
+    top: 25.5rem;
     font-family: Manrope;
     font-style: normal;
     font-weight: normal;
@@ -50,7 +50,7 @@
     width: 10%;
     height: 8%;
     left: 66%;
-    top: 36rem;
+    top: 30rem;
     background: #8C30F5;
     border-radius: 20px;
 
@@ -80,24 +80,27 @@
     .slg1{
         color:white ;    
     font-family: Manrope;
-    font-size: 5rem;
+    font-size: 4.99rem;
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
     letter-spacing: 0em;
     text-align: left;
     position: absolute;
+    
     width: 29%;
-    left: 70%;
+    left: 65%;
     top: 13rem;
     }
+
+   
     
     .slg2{
         color: white;
         position: absolute;
         width: 30%;
         
-        left: 70%;
+        left: 65%;
         top: 30rem;
         font-family: Manrope;
         font-style: normal;
@@ -105,6 +108,8 @@
         font-size: 1rem;
         line-height: 100%;
     }
+
+    
     
     .btn{
         color: white;
@@ -112,13 +117,10 @@
     position:absolute;
     width: 10%;
     height: 8%;
-    left: 70%;
+    left: 65%;
     top: 35rem;
     background: #8C30F5;
     border-radius: 20px;
-    
-
-    
     }
 
     .btn:hover {background-color: #7f11fd}
@@ -129,6 +131,61 @@
   transform: translateY(4px);
 
 }
+
+@-moz-document url-prefix() {
+    .slg1{
+        color:white ;    
+        font-family: Manrope;
+        font-size: 4.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        
+        width: 30%;
+        left: 66%;
+        top: 13rem;
+    }
+
+    .slg2{
+        color: white;
+        position: absolute;
+        width: 30%;
+        
+        left: 66%;
+        top: 28rem;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 100%;
+    }
+
+    .btn{
+        color: white;
+        font-size: 1rem;
+    position:absolute;
+    width: 10%;
+    height: 8%;
+    left: 66%;
+    top: 33rem;
+    background: #8C30F5;
+    border-radius: 20px;
+    }
+
+    .btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+  
+  transform: translateY(4px);
+
+}
+
+  }
+
 }
 
 /* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
