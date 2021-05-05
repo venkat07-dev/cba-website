@@ -59,16 +59,16 @@ function Navbar(props ) {
 
           <ul className="icons">
             <li >
-              <img src={facebook} alt="" onClick={Facebook} />
+              <img className="social-media-icon" src={facebook} alt="" onClick={Facebook} />
             </li>
             <li >
-              <img src={instagram} alt=""  onClick={Insta}/>
+              <img className="social-media-icon" src={instagram} alt=""  onClick={Insta}/>
             </li>
             <li >
-              <img src={youtube} alt="" onClick={Youtube} />
+              <img className="social-media-icon" src={youtube} alt="" onClick={Youtube} />
             </li>
             <li >
-              <img src={twitter} alt="" onClick={Twitter}/>
+              <img className="social-media-icon" src={twitter} alt="" onClick={Twitter}/>
             </li>
           </ul>
         </nav>

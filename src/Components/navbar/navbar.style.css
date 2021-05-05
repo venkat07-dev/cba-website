@@ -6,7 +6,9 @@
 
 
 .head{
-    position: fixed;
+    position: absolute;
+    top: 0%;
+    height: 8.6%;
     width: 100%;
     margin: 0 auto;
     margin-top: -1.7%;
@@ -72,8 +74,13 @@ li a:hover{
     list-style-type: none;
     margin-right: 5%;
     display: flex;
-    
+}
 
+/* social-media-icons for both Navbar nd Footer */
+
+.social-media-icon{
+  width: 50%;
+  height: 50%;
 }
 
 img:hover{
