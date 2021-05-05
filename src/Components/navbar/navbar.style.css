@@ -24,6 +24,7 @@ header{
 
 .logo{
         color:black;
+        font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold ;
         font-size: 1cm;
         margin-left: 45%;
@@ -76,10 +77,12 @@ li a:hover{
 }
 .dropdown{
     display: none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .dropdown2{
     display: none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 }

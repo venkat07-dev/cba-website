@@ -18,6 +18,7 @@ footer{
 .logo2{
     
     position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 300%;
     color: white;
@@ -29,7 +30,7 @@ footer{
 
 .dev{
     
-    font-family: Manrope;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 120%;
@@ -88,7 +89,7 @@ footer{
 
 .dev{
     
-    font-family: Manrope;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 120%;
@@ -146,7 +147,7 @@ li img {
 
     
     .dev {
-        font-family: Manrope;
+        font-family: 'Source Sans Pro', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 7px;
@@ -232,7 +233,7 @@ li img {
 
     
     .dev {
-        font-family: Manrope;
+        font-family: 'Source Sans Pro', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 7px;
