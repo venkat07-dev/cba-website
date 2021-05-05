@@ -15,15 +15,15 @@ function Contact()
                     
                     <div className="map">
                     <iframe className="map1"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1/117%20,AKS%20Thoppu%20Mandapam%20,camp,%20Tamil%20Nadu%20+(Your%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <a href="https://www.mapsdirections.info/en/measure-map-radius/"></a></div>
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1/117%20,AKS%20Thoppu%20Mandapam%20,camp,%20Tamil%20Nadu%20+(Your%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
+                    <a href="https://www.mapsdirections.info/en/measure-map-radius/" alt="" /></div>
                                     
                            
                             
                            
                 <h1 className="txt" id="contact">Reach to us</h1>
                 <p className="p">Let’s connect to extend our opportunities</p>
-                <div class="src" >
+                <div className="src" >
                     <form>
                     <div className="form">
                     <input className="name" type="text"  name="name" placeholder="Name"/>

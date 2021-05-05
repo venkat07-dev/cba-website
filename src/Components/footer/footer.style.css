@@ -5,15 +5,18 @@
 
 
 footer{
-    
+
     position: absolute;
-    top: 814%;
+    margin-top:0vh;
     left: 0%;
     width:100%;
     background-color: black;
     height: 15%;
     text-align: center;
-}
+}  
+
+
+
 
 .logo2{
     
@@ -27,6 +30,9 @@ footer{
     text-align: center;
     margin: auto;                 
 }
+.logo2:hover{
+    cursor: pointer;
+  }
 
 .dev{
     
@@ -50,6 +56,11 @@ footer{
 
 }
 
+img:hover{
+
+    cursor: pointer;
+    }
+
 li img {
     padding: 1em;
     height: 70%;
@@ -67,7 +78,8 @@ li img {
 footer{
     
     position: absolute;
-    top: 814%;
+    
+    top: 0vh;
     left: 0%;
     width:100%;
     background-color: black;
@@ -86,6 +98,11 @@ footer{
     text-align: center;
     margin: auto;          
 }
+
+.logo2:hover{
+    cursor: pointer;
+  }
+
 
 .dev{
     
@@ -109,10 +126,18 @@ footer{
 
 }
 
+
+
+
 li img {
     padding: 1em;
     height: 70%;
 }
+
+img:hover{
+
+    cursor: pointer;
+    }
 
 .dropdown3{
     display: none;

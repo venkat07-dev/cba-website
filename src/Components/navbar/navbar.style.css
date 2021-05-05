@@ -12,6 +12,7 @@
     margin-top: -1.7%;
     background-color: white;
     z-index: 10;
+    left: 0%;
     
     box-sizing: border-box;
     }
@@ -75,6 +76,12 @@ li a:hover{
     
 
 }
+
+img:hover{
+
+  cursor: pointer;
+  }
+
 .dropdown{
     display: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -91,8 +98,8 @@ li a:hover{
 @media (min-width: 1800px) {
   .head{
     position: fixed;
-    width: 100%;
-    margin: 0 auto;
+    width: 101%;
+    margin-left:-1%;
     margin-top: -1.7%;
     background-color: white;
     z-index: 10;
@@ -115,6 +122,9 @@ header{
         position: absolute;
         
         
+}
+.logo:hover{
+  cursor: pointer;
 }
 
 nav{
@@ -144,6 +154,7 @@ li a{
 
 li a:hover{
     background: white;
+    cursor: pointer;
 }
 
 .icons{
@@ -154,6 +165,12 @@ li a:hover{
     
 
 }
+
+img:hover{
+
+  cursor: pointer;
+  }
+
 .dropdown{
     display: none;
 }
@@ -162,6 +179,7 @@ li a:hover{
     display: none;
 }
 }
+
 
 /* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
 
@@ -392,7 +410,7 @@ li a:hover{
 
 
 }
-    
+
     
     
 

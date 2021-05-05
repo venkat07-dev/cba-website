@@ -5,18 +5,23 @@
 
   .img{
     width:124%;
-    height: 916.99px;
+    height: 60em;
     
     margin:auto;
     background-image: url('Home/Image.png');
     background-size: 100% 100%;
-    margin-top: 50px;
+    margin-top: 0%;
 }
     
 .slg1{
     color: white;
+ 
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 350%;
+
+    font-family: Manrope;
+    font-size: 4.8rem;
+
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
@@ -25,8 +30,8 @@
     position: absolute;
     width: 29%;
     
-    left: 65%;
-    top: 20%;
+    left: 66%;
+    top: 10rem;
 }
 
 .slg2{
@@ -34,26 +39,39 @@
     position: absolute;
     width: 30%;
     height: 32px;
+
     left: 65%;
     top: 65%;
     font-family: 'Source Sans Pro', sans-serif;
+
+    left: 66%;
+    top: 25.5rem;
+    font-family: Manrope;
+
     font-style: normal;
     font-weight: normal;
-    font-size: 101%;
-    line-height: 32px;
+    font-size: 1rem;
+    line-height: 100%;
 }
 
 .btn{
     color: white;
-    font-size: 101%;
+    font-size: 1rem;
     position: absolute;
     width: 10%;
     height: 8%;
-    left: 65%;
-    top: 75%;
+    left: 66%;
+    top: 30rem;
     background: #8C30F5;
     border-radius: 20px;
 
+}
+.btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+ 
+  transform: translateY(4px);
 }
 }
 
@@ -62,56 +80,135 @@
 
     .img{
         width:125%;
-        height: 916.99px;
+        height: 60em;
         
         margin:auto;
         background-image: url('Home/Image.png');
         background-size: 100% 100%;
-        margin-top: 50px;
+        margin-top: 0%;
     }
         
     .slg1{
         color:white ;    
+
         font-family: 'Source Sans Pro', sans-serif;
     font-size: 77px;
+
+    font-family: Manrope;
+    font-size: 4.99rem;
+
     font-style: normal;
     font-weight: 800;
-    line-height: 98px;
+    line-height: 100%;
     letter-spacing: 0em;
     text-align: left;
     position: absolute;
-    width: 540px;
-    height: 294px;
-    left: 70%;
-    top: 205px;
+    
+    width: 29%;
+    left: 65%;
+    top: 13rem;
     }
+
+   
     
     .slg2{
         color: white;
         position: absolute;
+
         width: 540px;
         height: 32px;
         left: 70%;
         top: 500px;
         font-family: 'Source Sans Pro', sans-serif;
+
+        width: 30%;
+        
+        left: 65%;
+        top: 30rem;
+        font-family: Manrope;
+
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
-        line-height: 32px;
+        font-size: 1rem;
+        line-height: 100%;
     }
+
+    
     
     .btn{
         color: white;
-        font-size: 20px;
+        font-size: 1rem;
     position:absolute;
-    width: 196px;
-    height: 62px;
-    left: 70%;
-    top: 600px;
+    width: 10%;
+    height: 8%;
+    left: 65%;
+    top: 35rem;
     background: #8C30F5;
-    border-radius: 8px;
-    
+    border-radius: 20px;
     }
+
+    .btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+  
+  transform: translateY(4px);
+
+}
+
+@-moz-document url-prefix() {
+    .slg1{
+        color:white ;    
+        font-family: Manrope;
+        font-size: 4.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        
+        width: 30%;
+        left: 66%;
+        top: 13rem;
+    }
+
+    .slg2{
+        color: white;
+        position: absolute;
+        width: 30%;
+        
+        left: 66%;
+        top: 28rem;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 100%;
+    }
+
+    .btn{
+        color: white;
+        font-size: 1rem;
+    position:absolute;
+    width: 10%;
+    height: 8%;
+    left: 66%;
+    top: 33rem;
+    background: #8C30F5;
+    border-radius: 20px;
+    }
+
+    .btn:hover {background-color: #7f11fd}
+
+.btn:active {
+  background-color: #8C30F5;
+  
+  transform: translateY(4px);
+
+}
+
+  }
 
 }
 
