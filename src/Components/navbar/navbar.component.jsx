@@ -7,6 +7,7 @@ import instagram from "../navbar/Navbar/insta.png";
 import youtube from "../navbar/Navbar/YT.png";
 import twitter from "../navbar/Navbar/twitter.png";
 import { Link,animateScroll as scroll } from "react-scroll";
+import favicon from "../navbar/Navbar/favicon.ico";
 
 
 function Navbar(props ) {
@@ -44,6 +45,7 @@ function Navbar(props ) {
         <h1  className="logo" onClick={() => scroll.scrollToTop()}>
           CBA
         </h1>
+        <img className="logoicon" src={favicon} alt=""/>
         <nav className="nav">
           <ul className="navbar">
             <li>

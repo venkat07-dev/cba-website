@@ -4,6 +4,8 @@ import facebook from "../footer/Footer/fb2.png";
 import instagram from "../footer/Footer/insta 2.png";
 import twitter from "../footer/Footer/twitter2.png";
 import youtube from "../footer/Footer/YT2.png";
+import Heart from "../footer/Footer/Heart.png";
+import favicon from "../navbar/Navbar/favicon.ico";
 import { animateScroll as scroll } from "react-scroll";
 
 
@@ -36,7 +38,9 @@ function Footer() {
         
         <footer  id="footer">
             <p href="home" className="logo2" onClick={() => scroll.scrollToTop()}>CBA</p>
-            <p className="dev">© 2021 All rights reserved.<br/> Developed by Skillscy.</p>
+            < img className="logoicon2" src={favicon} alt="" />
+            <p className="dev">© 2021 All rights reserved. Developed by Skillscy.</p>
+            <img className="heart" src={Heart} alt="" />
             <ul className="icons2">
                 <li>
                     <img className="social-media-icon" src={facebook} alt="" onClick={Facebook}  />

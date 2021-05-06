@@ -30,14 +30,22 @@ header{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold ;
         font-size: 1cm;
-        margin-left: 45%;
-        padding-top: 5px;
+        left: 50%;
+        top: 0.8rem;
         position: absolute;
         
         
 }
 .logo:hover{
   cursor: pointer;
+}
+
+.logoicon{
+  
+  position: absolute;
+  left: 46%;
+  top: 2rem;
+
 }
 
 nav{
@@ -51,8 +59,8 @@ nav{
             
             list-style-type: none;
             margin-left: 5%;
-            
-             display: flex;  
+            margin-top: 2rem;
+            display: flex;  
 
 }
 
@@ -73,15 +81,20 @@ li a:hover{
 .icons{
     float: right;
     list-style-type: none;
-    margin-right: 5%;
+    margin-right: 8%;
     display: flex;
+    margin-top: 2.5%;
 }
 
 /* social-media-icons for both Navbar nd Footer */
 
 .social-media-icon{
-  width: 50%;
-  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  padding: 5px;
 }
 
 img:hover{
@@ -104,7 +117,9 @@ img:hover{
 /* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
 @media (min-width: 1800px) {
   .head{
-    position: fixed;
+    position: absolute;
+    top: 0%;
+    height: 12%;
     width: 101%;
     margin-left:-1%;
     margin-top: -1.7%;
@@ -122,16 +137,25 @@ header{
 
 .logo{
         color:black;
+        font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold ;
         font-size: 1cm;
-        margin-left: 45%;
-        margin-top: 1%;
+        left: 49%;
+        top: 1.5rem;
         position: absolute;
         
         
 }
 .logo:hover{
   cursor: pointer;
+}
+
+.logoicon{
+  
+  position: absolute;
+  left: 46%;
+  top: 3rem;
+
 }
 
 nav{
@@ -144,7 +168,8 @@ nav{
             color: black;
             
             list-style-type: none;
-            margin-left: 4%;
+            margin-left: 5%;
+            margin-top: 2rem;
             
              display: flex;  
 
@@ -167,10 +192,20 @@ li a:hover{
 .icons{
     float: right;
     list-style-type: none;
-    margin-right: 5%;
+    margin-right: 8%;
     display: flex;
-    
+    margin-top: 2%;
+  }
 
+/* social-media-icons for both Navbar nd Footer */
+
+.social-media-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  padding: 7px;
 }
 
 img:hover{
