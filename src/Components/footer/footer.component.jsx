@@ -39,8 +39,8 @@ function Footer() {
         <footer  id="footer">
             <p href="home" className="logo2" onClick={() => scroll.scrollToTop()}>CBA</p>
             < img className="logoicon2" src={favicon} alt="" />
-            <p className="dev">© 2021 All rights reserved. Developed by Skillscy.</p>
-            <img className="heart" src={Heart} alt="" />
+            <p className="dev">© 2021 All rights reserved. Developed by Skillscy.&nbsp;<img className="heart" src={Heart} alt="" /></p>
+            
             <ul className="icons2">
                 <li>
                     <img className="social-media-icon" src={facebook} alt="" onClick={Facebook}  />

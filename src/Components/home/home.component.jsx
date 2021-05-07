@@ -3,7 +3,8 @@ import "./home.style.css"
 
 function Home() {
     return(
-        <div className="img" >
+        <div>
+        <div className="img" />
             {/* <img scr={bgimage} alt="" /> */}
             <h1 className="slg1">
                 Unleash your badminton skills
@@ -14,6 +15,7 @@ function Home() {
             <button className="btn">
                 Join Now
             </button>
+       
        </div>
     );
 }
