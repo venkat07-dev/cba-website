@@ -5,8 +5,8 @@
 
   .img {
     
-      width:127.5%; 
-    height: 50em; 
+      width:125%; 
+    height: 95vh; 
     
     margin:auto;
     background-image: url('Home/Image.png');
@@ -14,7 +14,7 @@
     margin-top: 0%;
     
      position: relative;
-    left: -3%; 
+    left: -1.1vh; 
 }
     
 .slg1{
@@ -71,15 +71,17 @@
 @media (min-width: 1800px) {
 
     .img{
-        width: 127.8%;
-        height: 70em;
+        width: 189vh;
+        height: 96vh;
         
         margin:auto;
         background-image: url('Home/Image.png');
-        background-size: 100% 100%;
+        background-size:cover;
+        
         margin-top: 0%;
         position: relative;
-        left: 3%;
+        left: -1vh;
+        
     }
         
     .slg1{

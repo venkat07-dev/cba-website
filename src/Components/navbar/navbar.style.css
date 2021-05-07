@@ -27,9 +27,9 @@ header{
 
 .logo{
         color:black;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold ;
-        font-size: 1cm;
+        font-size: 250%;
         left: 50%;
         top: 0.8rem;
         position: absolute;
@@ -137,9 +137,10 @@ header{
 
 .logo{
         color:black;
-        font-family: 'Source Sans Pro', sans-serif;
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold ;
-        font-size: 1cm;
+        font-size: 250%;
         left: 49%;
         top: 1.5rem;
         position: absolute;

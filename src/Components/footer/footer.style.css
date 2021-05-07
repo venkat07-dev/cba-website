@@ -21,7 +21,7 @@ footer{
 .logo2{
     
     position: absolute;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 250%;
     color: white;
@@ -56,11 +56,22 @@ footer{
    
 }
 
-.heart{
-    position: absolute;
-    /* left: 58.5%; */
-    top: -0.2em;
-}
+.QClink:link {
+    color: white;
+    text-decoration: none
+  }
+  
+  /* visited link */
+  .QClink:visited {
+    color: white;
+    text-decoration: none
+  }
+  
+  /* mouse over link */
+  .QClink:hover {
+    color: red;
+    text-decoration: none
+  }
 
 
 .icons2{
@@ -106,7 +117,7 @@ footer{
 .logo2{
     
     position: absolute;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 300%;
     color: white;
@@ -144,11 +155,7 @@ footer{
 }
 
 
-.heart{
-    position: absolute;
-    
-    top: -0.2em;
-}
+
 
 @-moz-document url-prefix(){
 
@@ -165,11 +172,7 @@ footer{
         bottom: 22%;
     }
 
-.heart{
-    position: absolute;
-    left: 61.2%;
-    bottom: 40%;
-}
+
 }
 .icons2{
     float: right;
@@ -179,8 +182,25 @@ footer{
     display: flex;
 
 }
-
-
+/* Unvisited link */
+.QClink:link {
+    color: white;
+    text-decoration: none
+  }
+  
+  /* visited link */
+  .QClink:visited {
+    color: white;
+    text-decoration: none
+  }
+  
+  /* mouse over link */
+  .QClink:hover {
+    color: red;
+    text-decoration: none
+  }
+  
+  
 
 
 li img {

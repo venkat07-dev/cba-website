@@ -14,7 +14,7 @@ function Contact()
                     <img className="img2 reach" src={background} alt=""></img>
                     
                     <div className="map">
-                    <iframe className="map1 map2"
+                    <iframe className="map1 map2" title="map"
                     src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1/117%20,AKS%20Thoppu%20Mandapam%20,camp,%20Tamil%20Nadu%20+(Your%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
                     <a href="https://www.mapsdirections.info/en/measure-map-radius/" alt="" /></div>
                                     
