@@ -8,7 +8,7 @@ function Intro(){
     return(
         <div id="intro">
             <div class="intro"  >
-        <h1 class="heading">Christopher Badmiton Academy</h1>
+        <h1 class="heading">Christopher Badminton Academy</h1>
         
         <img class="img-fluid" src={image} alt=""/>
         <p class="heading-flex" >SCBC Academy</p>
