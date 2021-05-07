@@ -22,29 +22,56 @@
     position:absolute;padding-top: 2780px;padding-left: 900px;
 }
 
-@media only screen and (min-width:1800px){
+@media only screen and (min-width:1920px){
     .fame-head{
-        position:absolute;left:250px;top:3000px;width:548px;height:128px;
+        position:absolute;left:320px;top:3000px;width:548px;height:128px;
         font-family: 'Source Sans Pro', sans-serif;
         font-size:45px;
     }
     .fameimg1{
-        position:absolute;padding-top: 1840px;padding-left: 350px;
+        position:absolute;padding-top: 1840px;padding-left: 450px;
     }
     .fameimg3{
-        position:absolute;padding-top: 1840px;padding-left: 720px;
+        position:absolute;padding-top: 1840px;padding-left: 840px;
     }
     .fameimg4{
-        position:absolute;padding-top: 2150px;padding-left: 720px;
+        position:absolute;padding-top: 2150px;padding-left: 840px;
     }
     .fameimg2{
-        position:absolute;padding-top: 2480px;padding-left: 350px;
+        position:absolute;padding-top: 2480px;padding-left: 450px;
     }
     .fameimg5{
-        position:absolute;padding-top: 2150px;padding-left: 1080px;
+        position:absolute;padding-top: 2150px;padding-left: 1180px;
     }
     .fameimg6{
-        position:absolute;padding-top: 2780px;padding-left: 1100px;
+        position:absolute;padding-top: 2780px;padding-left: 1200px;
+    }
+
+}
+
+@media only screen and (min-width:1520px){
+    .fame-head{
+        position:absolute;left:220px;top:3000px;width:548px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:45px;
+    }
+    .fameimg1{
+        position:absolute;padding-top: 1840px;padding-left: 250px;
+    }
+    .fameimg3{
+        position:absolute;padding-top: 1840px;padding-left: 640px;
+    }
+    .fameimg4{
+        position:absolute;padding-top: 2150px;padding-left: 640px;
+    }
+    .fameimg2{
+        position:absolute;padding-top: 2480px;padding-left: 250px;
+    }
+    .fameimg5{
+        position:absolute;padding-top: 2150px;padding-left: 980px;
+    }
+    .fameimg6{
+        position:absolute;padding-top: 2780px;padding-left: 1000px;
     }
 
 }
