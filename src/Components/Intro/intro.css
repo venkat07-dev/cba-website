@@ -25,7 +25,7 @@ body{
 .heading{
     position: absolute;
     left: 35%;
-    top: 28em;
+    top: 19em;
     width: 30%;
     text-align: center;
 }
@@ -33,25 +33,25 @@ body{
     position: absolute; left:600px; top:30em;
 }
 .img-fluid{
-    padding-top: 165px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
+    padding-top: 195px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
 }
 .heading-flex{
-    position: absolute;left:420px;top:1280px;
+    position: absolute;left:420px;top:930px;
 }
 .heading-flex1{
     font-size:75%;
-    position:absolute;left:445px;top:1315px;
+    position:absolute;left:445px;top:960px;
 }
 .img-fluid1{
-    position:absolute;padding-left:750px;top:72em;
+    position:absolute;padding-left:750px;top:51em;
 }
 .heading-flex2{
-    position: absolute;left:740px;top:1280px;
+    position: absolute;left:740px;top:930px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: large;
 }
 .heading-flex3{
-    position: absolute;left: 800px;top:1315px;
+    position: absolute;left: 800px;top:960px;
 	font-size:90%;
 }
 .circle {
@@ -59,11 +59,11 @@ body{
 	width: 50px;
 	background-color:#75E3EA;
 	border-radius: 50%;
-	position: absolute;left:1200px;top:1020px;
+	position: absolute;left:1200px;top:720px;
   }
 .circle1{
 	position: absolute;
-	left: 100px;top:1150px;
+	left: 100px;top:950px;
 	height: 50px;
 	width: 50px;
 	background-color:#FFC278;
@@ -72,8 +72,8 @@ body{
 
 /* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
 @media (min-width: 1920px) {
-	.heading{
-		width:20%;
+	/* .heading{
+		width:60%;
 		left:750px;
 	}
 	
@@ -82,7 +82,7 @@ body{
 		padding-left:600px;
 	}
 	.heading-flex{
-		top:166.5%;
+		top:118.5%;
 		padding-left:200px;
 	}
 	.img-fluid1{
@@ -99,29 +99,82 @@ body{
 	}
 	.circle{
 		left:1700px;
+	} */
+
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading{
+		position: absolute;
+		left: 10%;
+		top: 19em;
+		width: 30%;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:620px; top:30em;
+	}
+	.img-fluid{
+		padding-top: 195px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
+	}
+	.heading-flex{
+		position: absolute;left:420px;top:930px;
+	}
+	.heading-flex1{
+		font-size:75%;
+		position:absolute;left:445px;top:960px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:750px;top:51em;
+	}
+	.heading-flex2{
+		position: absolute;left:740px;top:930px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading-flex3{
+		position: absolute;left: 800px;top:960px;
+		font-size:90%;
+	}
+	.circle {
+		height: 50px;
+		width: 50px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:1200px;top:720px;
+	  }
+	.circle1{
+		position: absolute;
+		left: 100px;top:950px;
+		height: 50px;
+		width: 50px;
+		background-color:#FFC278;
+		border-radius: 50%;
 	}
 }
 
 @media (min-width: 1520px) {
 	/* .heading{
-		width:20%;
-		left:750px;
-	} */
+		width:35%;
+		top:94%;
+		left:500px;
+	}
 	
-	/* .img-fluid{
-		top:100%;
-		padding-left:600px;
+	.img-fluid{
+		padding-top:140px;
+		padding-left:450px;
 	}
 	.heading-flex{
-		top:118.5%;
-		padding-left:200px;
-	} */
+		top:121.5%;
+		padding-left:50px;
+	}
 	.img-fluid1{
 		padding-left: 900px;
 	}
-	/* .heading-flex1{
-		padding-left: 10px;
-	} */
+	.heading-flex1{
+		padding-left: 60px;
+	}
 	.heading-flex2{
 		padding-left: 160px;
 	}
@@ -130,5 +183,58 @@ body{
 	}
 	.circle{
 		left:1300px;
+	} */
+
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
 	}
+	.heading{
+		position: absolute;
+		left: 35%;
+		top: 29em;
+		width: 30%;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:600px; top:30em;
+	}
+	.img-fluid{
+		padding-top: 160px;padding-left: 420px;padding-right: 5px;padding-bottom: 5px;
+	}
+	.heading-flex{
+		position: absolute;left:440px;top:1320px;
+	}
+	.heading-flex1{
+		font-size:75%;
+		position:absolute;left:470px;top:1350px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:850px;top:75.3em;
+	}
+	.heading-flex2{
+		position: absolute;left:840px;top:1320px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading-flex3{
+		position: absolute;left: 900px;top:1350px;
+		font-size:90%;
+	}
+	.circle {
+		height: 50px;
+		width: 50px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:1200px;top:720px;
+	  }
+	.circle1{
+		position: absolute;
+		left: 100px;top:950px;
+		height: 50px;
+		width: 50px;
+		background-color:#FFC278;
+		border-radius: 50%;
+	}
+	
 }

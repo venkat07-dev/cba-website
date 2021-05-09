@@ -10,7 +10,7 @@ function Special(){
     return(
         <div>
             <div class="special" id="special">
-        <h2 class="special1">Why we are special?</h2>
+        <h1 class="special1">Why we are special?</h1>
     </div>
     <div class="zig-zag">
         <div class="circle5"></div>
