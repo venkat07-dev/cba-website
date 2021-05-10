@@ -5,7 +5,7 @@ import instagram from "../footer/Footer/insta 2.png";
 import twitter from "../footer/Footer/twitter2.png";
 import youtube from "../footer/Footer/YT2.png";
 
-import favicon from "../navbar/Navbar/favicon.ico";
+import icon from "../navbar/Navbar/badminton icon.png";
 import { animateScroll as scroll } from "react-scroll";
 
 
@@ -38,7 +38,7 @@ function Footer() {
         
         <footer  id="footer">
             <p href="home" className="logo2" onClick={() => scroll.scrollToTop()}>CBA</p>
-            < img className="logoicon2" src={favicon} alt="" />
+            < img className="logoicon2" src={icon} alt="" />
             <p className="dev">© 2021 All rights reserved. Developed by <a className="QClink" href="https://www.quartciphers.in/" target="_blank" rel="noreferrer">QuartCiphers</a>.</p>
             
             <ul className="icons2">

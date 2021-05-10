@@ -42,6 +42,7 @@ footer{
     left: 14%;
     top: 25%;
     height: 50%;
+    filter: contrast(500%);
   
   }
 
