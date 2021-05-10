@@ -1,3 +1,4 @@
+@media  (max-width:1499px) and (min-width:1200px){
 .heading6{
     position:absolute;left:150px;top:2350px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -96,6 +97,7 @@
 .achieve-fluid-four{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
+}
 }
 
 @media only screen and (min-width:1920px){
@@ -201,87 +203,87 @@
 }
 @media only screen and (min-width:1520px){
     .heading6{
-    position:absolute;left:220px;top:2700px;width:548px;height:128px;
+    position:absolute;left:220px;top:2450px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:50px;
 }
 .para6{
-    position:absolute;left:220px;top:2850px;width:548px;height:128px;
+    position:absolute;left:220px;top:2600px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 }
 .svg1{
-    position: absolute;left:800px;top:2750px;
+    position: absolute;left:800px;top:2480px;
 }
 .svg2{
-    position: absolute;left:813px;top:2750px;
+    position: absolute;left:813px;top:2480px;
 }
 .svg3{
-    position: absolute;left:825px;top:2759px;
+    position: absolute;left:825px;top:2489px;
 }
 .achieve-fluid{
-    position: absolute;left:860px;top:2710px;
+    position: absolute;left:860px;top:2445px;
 }
 .achieve-fluid-two{
-    position: absolute;left:860px;top:2755px;
+    position: absolute;left:860px;top:2485px;
 }
 .svg4{
-    position: absolute;left:800px;top:2850px;
+    position: absolute;left:800px;top:2580px;
 }
 .svg5{
-    position: absolute;left:809px;top:2850px;
+    position: absolute;left:809px;top:2580px;
 }
 .svg6{
-    position: absolute;left:825px;top:2850px;
+    position: absolute;left:825px;top:2580px;
 }
 .achieve-fluid-three{
-    position: absolute;left:860px;top:2810px;
+    position: absolute;left:860px;top:2550px;
 }
 .achieve-fluid-four{
-    position: absolute;left:860px;top:2855px;
+    position: absolute;left:860px;top:2590px;
 }
 .svg7{
-    position: absolute;left:1100px;top:2748px;
+    position: absolute;left:1100px;top:2470px;
 }
 .svg8{
-    position: absolute;left:1100px;top:2757px;
+    position: absolute;left:1100px;top:2479px;
 }
 .svg9{
-    position: absolute;left:1110px;top:2775px;
+    position: absolute;left:1110px;top:2497px;
 }
 .achieve-fluid-three1{
-    position: absolute;left:1150px;top:2704px;
+    position: absolute;left:1150px;top:2440px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .achieve-fluid-four1{
-    position: absolute;left:1150px;top:2751px;
+    position: absolute;left:1150px;top:2480px;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
 }
 .svg10{
-    position: absolute;left:1100px;top:2850px;
+    position: absolute;left:1100px;top:2570px;
 }
 .svg11{
-    position: absolute;left:1100px;top:2868px;
+    position: absolute;left:1100px;top:2588px;
 }
 .svg12{
-    position: absolute;left:1116px;top:2850px;
+    position: absolute;left:1116px;top:2572px;
 }
 .svg13{
-    position: absolute;left:1116px;top:2858px;
+    position: absolute;left:1116px;top:2580px;
 }
 .svg14{
-    position: absolute;left:1116px;top:2869px;
+    position: absolute;left:1116px;top:2590px;
 }
 .svg15{
-    position: absolute;left:1116px;top:2877px;
+    position: absolute;left:1116px;top:2598px;
 }
 .achieve-fluid-three2{
-    position: absolute;left:1160px;top:2807px;
+    position: absolute;left:1160px;top:2540px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .achieve-fluid-four2{
-    position: absolute;left:1160px;top:2850px;
+    position: absolute;left:1160px;top:2585px;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
 }

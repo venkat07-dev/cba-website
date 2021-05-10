@@ -1,3 +1,5 @@
+@media (max-width:1499px) and (min-width:1200px){
+
 .fheading{
     position: absolute;left:150px;top:1900px;
 }
@@ -50,7 +52,7 @@
     border-radius: 50%;
     position: absolute;left:0px;top:2500px;
 }
-
+}
 
 
 @media only screen and (min-width:1920px){
@@ -164,19 +166,19 @@
 
 @media only screen and (min-width:1520px){
     .fheading{
-        position: absolute;left:230px;top:2250px;
+        position: absolute;left:230px;top:2000px;
     }
     .container1{
-        position:absolute;padding-top: 1000px;padding-left: 17%;
+        position:absolute;padding-top: 1080px;padding-left: 17%;
     }
     .container2{
-        position:absolute;padding-top: 1000px;padding-left: 36%;
+        position:absolute;padding-top: 1080px;padding-left: 36%;
     }
     .container3{
-        position:absolute;padding-top: 1000px;padding-left: 55%;
+        position:absolute;padding-top: 1080px;padding-left: 55%;
     }
     .container4{
-        position:absolute;padding-top: 1000px;padding-left: 73%;
+        position:absolute;padding-top: 1080px;padding-left: 73%;
     }
     .listing-four{
         font-family: 'Source Sans Pro', sans-serif;
@@ -190,16 +192,16 @@
         font-weight: 510;
     }
     .about-one{
-        position: absolute;left:260px;top:2580px;width:255px;height:56px;
+        position: absolute;left:260px;top:2320px;width:255px;height:56px;
     }
     .about-two{
-        position: absolute;left:549px;top:2580px;width:255px;height:56px;
+        position: absolute;left:549px;top:2320px;width:255px;height:56px;
     }
     .about-three{
-        position: absolute;left:843px;top:2580px;width:255px;height:56px;
+        position: absolute;left:843px;top:2320px;width:255px;height:56px;
     }
     .about-four{
-        position: absolute;left:1129px;top:2580px;width:255px;height:56px;
+        position: absolute;left:1129px;top:2320px;width:255px;height:56px;
     }
     .circle7{
         height: 50px;

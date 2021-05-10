@@ -18,6 +18,7 @@ body{
 	margin-top: 80px;
 	border-radius: 10px;
 }
+@media  (max-width:1499px) and (min-width:1200px){
 .intro{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: large;
@@ -68,6 +69,7 @@ body{
 	width: 50px;
 	background-color:#FFC278;
 	border-radius: 50%;
+}
 }
 
 /* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
@@ -192,7 +194,7 @@ body{
 	.heading{
 		position: absolute;
 		left: 35%;
-		top: 29em;
+		top: 22em;
 		width: 30%;
 		text-align: center;
 	}
@@ -200,25 +202,25 @@ body{
 		position: absolute; left:600px; top:30em;
 	}
 	.img-fluid{
-		padding-top: 160px;padding-left: 420px;padding-right: 5px;padding-bottom: 5px;
+		padding-top: 160px;padding-left: 460px;padding-right: 5px;padding-bottom: 5px;
 	}
 	.heading-flex{
-		position: absolute;left:440px;top:1320px;
+		position: absolute;left:480px;top:1020px;
 	}
 	.heading-flex1{
 		font-size:75%;
-		position:absolute;left:470px;top:1350px;
+		position:absolute;left:510px;top:1050px;
 	}
 	.img-fluid1{
-		position:absolute;padding-left:850px;top:75.3em;
+		position:absolute;padding-left:860px;top:56.3em;
 	}
 	.heading-flex2{
-		position: absolute;left:840px;top:1320px;
+		position: absolute;left:840px;top:1020px;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: large;
 	}
 	.heading-flex3{
-		position: absolute;left: 900px;top:1350px;
+		position: absolute;left: 900px;top:1050px;
 		font-size:90%;
 	}
 	.circle {
@@ -226,7 +228,7 @@ body{
 		width: 50px;
 		background-color:#75E3EA;
 		border-radius: 50%;
-		position: absolute;left:1200px;top:720px;
+		position: absolute;left:1200px;top:800px;
 	  }
 	.circle1{
 		position: absolute;

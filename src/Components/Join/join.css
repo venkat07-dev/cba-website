@@ -1,3 +1,4 @@
+@media  (max-width:1499px) and (min-width:1200px){
 .join{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:35px;
@@ -52,6 +53,7 @@
 	font-size: 25px;
 	color: white;
 	font-weight: lighter;
+}
 }
 
 @media only screen and (min-width:1920px){
@@ -117,25 +119,25 @@
 		font-weight: bold;
 	}
 	.join1{
-		position: absolute;top:4500px;left:220px;
+		position: absolute;top:4300px;left:220px;
 	}
 	.join2{
-		position:absolute;left:280px;top:4520px;width:444px;height:128px;
+		position:absolute;left:280px;top:4320px;width:444px;height:128px;
 	}
 	.join3{
-		position: absolute;left:690px;top:4605px;
+		position: absolute;left:690px;top:4405px;
 	}
 	.join4{
-		position: absolute;left:835px;top:4704px;
+		position: absolute;left:835px;top:4504px;
 	}
 	.join5{
-		position: absolute;left:1019px;top:4500px;
+		position: absolute;left:1019px;top:4300px;
 	}
 	.join6{
-		position: absolute;left:900px;top:4607px;
+		position: absolute;left:900px;top:4407px;
 	}
 	.button{
-		position: absolute;left: 280px;top:4680px;
+		position: absolute;left: 280px;top:4480px;
 		background-color:white;
 		border-radius:9px;
 		border:1px solid #8C30F5;
@@ -156,11 +158,19 @@
 		top:1px;
 	}
 	.vector{
-		position: absolute;left:963.25px;top:4660px;width: 154.01px;height: 55.5px;
-		transform: rotate(10deg);
-		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		font-size: 25px;
+		position: absolute;
+		left: 963.25px;
+		top: 4450px;
+		width: 104.01px;
+		height: 55.5px;
+		transform: rotate(
+	10deg
+	);
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 30px;
 		color: white;
 		font-weight: lighter;
+		width: 10%;
+		text-align: center;
 	}
 }

@@ -286,14 +286,14 @@ border-radius: 8px;
 }
 @media only screen and (min-height: 601px) and ( max-height: 767px) {
   .contact {
-    top:  4907px;
+    top:  4707px;
     
   }
   .reach {
     top: 8%;
   }
    #footer {
-    top: 363rem;
+    top: 350rem;
    
   } 
 }
