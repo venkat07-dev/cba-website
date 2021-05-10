@@ -1,5 +1,5 @@
 .fame-head{
-    position:absolute;left:150px;top:3000px;width:548px;height:128px;
+    position:absolute;left:150px;top:2650px;width:548px;height:128px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:45px;
 }
@@ -56,22 +56,22 @@
         font-size:45px;
     }
     .fameimg1{
-        position:absolute;padding-top: 1840px;padding-left: 250px;
+        position:absolute;padding-top: 1750px;padding-left: 250px;
     }
     .fameimg3{
-        position:absolute;padding-top: 1840px;padding-left: 640px;
+        position:absolute;padding-top: 1750px;padding-left: 640px;
     }
     .fameimg4{
-        position:absolute;padding-top: 2150px;padding-left: 640px;
+        position:absolute;padding-top: 2090px;padding-left: 640px;
     }
     .fameimg2{
-        position:absolute;padding-top: 2480px;padding-left: 250px;
+        position:absolute;padding-top: 2410px;padding-left: 250px;
     }
     .fameimg5{
-        position:absolute;padding-top: 2150px;padding-left: 980px;
+        position:absolute;padding-top: 2100px;padding-left: 980px;
     }
     .fameimg6{
-        position:absolute;padding-top: 2780px;padding-left: 1000px;
+        position:absolute;padding-top: 2740px;padding-left: 1000px;
     }
 
 }
