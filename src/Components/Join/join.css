@@ -56,17 +56,17 @@
 }
 }
 
-@media only screen and (min-width:1920px){
+@media (min-width:1920px){
 	.join{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size:35px;
 		font-weight: bold;
 	}
 	.join1{
-		position: absolute;top:4500px;left:880px;
+		position: absolute;top:4530px;left:410px;
 	}
 	.join2{
-		position:absolute;left:450px;top:4520px;width:444px;height:128px;
+		position:absolute;left:460px;top:4540px;width:444px;height:128px;
 	}
 	.join3{
 		position: absolute;left:890px;top:4605px;
@@ -75,13 +75,13 @@
 		position: absolute;left:1035px;top:4704px;
 	}
 	.join5{
-		position: absolute;left:1219px;top:4500px;
+		position: absolute;left:1210px;top:4530px;
 	}
 	.join6{
-		position: absolute;left:1100px;top:4607px;
+		position: absolute;left:1070px;top:4640px;
 	}
 	.button{
-		position: absolute;left: 450px;top:4680px;
+		position: absolute;left: 480px;top:4700px;
 		background-color:white;
 		border-radius:9px;
 		border:1px solid #8C30F5;
@@ -102,7 +102,7 @@
 		top:1px;
 	}
 	.vector{
-		position: absolute;left:1163.25px;top:4660px;width: 154.01px;height: 55.5px;
+		position: absolute;left:1153.25px;top:4700px;width: 154.01px;height: 55.5px;
 		transform: rotate(10deg);
 		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		font-size: 25px;
@@ -112,7 +112,7 @@
 }
 
 
-@media only screen and (min-width:1520px){
+@media (min-width: 1500px) and (max-width: 1799px){
 	.join{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size:35px;
@@ -160,7 +160,7 @@
 	.vector{
 		position: absolute;
 		left: 963.25px;
-		top: 4450px;
+		top: 4440px;
 		width: 104.01px;
 		height: 55.5px;
 		transform: rotate(

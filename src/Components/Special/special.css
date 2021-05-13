@@ -77,41 +77,41 @@
 }
 }
 
-@media only screen and (min-width:1920px){
+@media (min-width:1920px){
 
 	.special{
-		position: absolute;left: 830px;top:1390px;
+		position: absolute;left: 850px;top:1500px;
 		font-family: 'Source Sans pro',sans-serif;
 	}
 	.shettleimg{
-		position:absolute;padding-top:200px;padding-left:550px;
+		position:absolute;padding-top:220px;padding-left:550px;
 	}
 	.shettleimg2{
-		position: absolute;padding-top:450px;padding-left: 280px;
+		position: absolute;padding-top:480px;padding-left: 400px;
 	}
 	.guyimg{
-		position: absolute;padding-top:600px;padding-left: 500px;
+		position: absolute;padding-top:660px;padding-left: 660px;
 	}
 	.listing{
 		font-family: 'Source Sans Pro', sans-serif;
 	}
 	.heading0{
-		position: absolute;left:1150px;top:1500px;
+		position: absolute;left:1150px;top:1650px;
 	}
 	.para{
-		position:absolute;left:1100px;top:1560px;width:444px;height:128px;
+		position:absolute;left:1100px;top:1720px;width:444px;height:128px;
 	}
 	.heading1{
-		position: absolute;left:1150px;top:1680px;
+		position: absolute;left:1150px;top:1820px;
 	}
 	.para1{
-		position:absolute;left:1100px;top:1750px;width:444px;height:128px;
+		position:absolute;left:1100px;top:1890px;width:444px;height:128px;
 	}
 	.heading2{
-		position: absolute;left:1150px;top:1850px;
+		position: absolute;left:1150px;top:1990px;
 	}
 	.para2{
-		position:absolute;left:1100px;top:1910px;width:444px;height:128px;
+		position:absolute;left:1100px;top:2060px;width:444px;height:128px;
 	}
 	.listing-two{
 		font-family: 'Source Sans Pro', sans-serif;
@@ -124,39 +124,39 @@
 		width: 50px;
 		background-color:#75E3EA;
 		border-radius: 50%;
-		position: absolute;left:740px;top:1720px;
+		position: absolute;left:840px;top:1790px;
 	}
 	.circle3{
 		height: 50px;
 		width: 50px;
 		background-color:#FFC3D8;
 		border-radius: 50%;
-		position: absolute;left:259px;top:1850px;
+		position: absolute;left:380px;top:2000px;
 	}
 	.circle4{
 		height: 50px;
 		width: 50px;
 		background-color:#C1E5C0;
 		border-radius: 50%;
-		position: absolute;left:663px;top:2056px;
+		position: absolute;left:825px;top:2240px;
 	}
 	.circle5{
 		height: 50px;
 		width: 50px;
 		background-color:#FFC278;
 		border-radius: 50%;
-		position: absolute;left:1800px;top:1820px;
+		position: absolute;left:1800px;top:1920px;
 	}
 	.circle6{
 		height: 50px;
 		width: 50px;
 		background-color:#75E3EA;
 		border-radius: 50%;
-		position: absolute;left:1350px;top:2200px;
+		position: absolute;left:1450px;top:2300px;
 	}
 
 }
-@media only screen and (min-width:1520px){
+@media (min-width: 1500px) and (max-width: 1799px){
 
 	.special{
 		position: absolute;left: 620px;top:1140px;
