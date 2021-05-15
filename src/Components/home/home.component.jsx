@@ -5,7 +5,7 @@ function Home() {
     return(
         <div>
         <div className="img" />
-            {/* <img scr={bgimage} alt="" /> */}
+            
             <h1 className="slg1">
                 Unleash your badminton skills
             </h1>
