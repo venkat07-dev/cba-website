@@ -34,10 +34,10 @@ function Navbar(props) {
       ></meta>
       <div className="head">
         <div className="Logo">
-        <h1 className="logo" onClick={() => scroll.scrollToTop()}>
-          CBA
-        </h1>
-        <img className="logoicon" src={icon} alt="" />
+          <h1 className="logo" onClick={() => scroll.scrollToTop()}>
+            CBA
+          </h1>
+          <img className="logoicon" src={icon} alt="" />
         </div>
         <nav className="nav">
           <ul className="navbar">
@@ -101,12 +101,23 @@ function Navbar(props) {
         </nav>
       </div>
       <div class="dropdown">
-        
         <img src={dropbutton} alt="" class="dropbtn" />
         <div class="dropdown-content">
-          <a href="about">About</a>
-          <a href="contact">Contact</a>
-          <a href="Admin">Admin</a>
+          <Link to="intro" spy={true} smooth={true} duration={1000}>
+            About
+          </Link>
+          <Link
+            to="contact"
+            offset={50}
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Contact
+          </Link>
+          <Link to="#" smooth={true} duration={1000}>
+            Admin
+          </Link>
         </div>
       </div>
 

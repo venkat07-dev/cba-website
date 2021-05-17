@@ -201,7 +201,7 @@
   }
 
   .slg1 {
-    width: 35%;
+    width: 30%;
     position: absolute;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
@@ -209,7 +209,7 @@
     font-weight: 550;
     letter-spacing: 0em;
     text-align: left;
-    left: 65vw;
+    left: 70vw;
     top: 14vh;
     line-height: 4vh;
     color: white;
@@ -219,11 +219,11 @@
     color: white;
     position: absolute;
     width: 35%;
-    left: 65vw;
+    left: 70vw;
     top: 27vh;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 4.5px;
   }
 
@@ -233,7 +233,7 @@
     position: absolute;
     width: 15vw;
     height: 3vh;
-    left: 65vw;
+    left: 70vw;
     top: 31vh;
     background: #8c30f5;
     border-radius: 4px;
