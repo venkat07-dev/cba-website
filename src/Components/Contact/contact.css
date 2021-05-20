@@ -311,13 +311,14 @@ border-radius: 8px;
   } 
 } 
   
-  @media (min-width: 364px) and (max-width: 480px) {
+  @media (min-width: 310px) and (max-width: 480px) {
   
     /* CSS */
-    body{
+   
+    .contact {
+      top:  1810px;
+      height: 1100px;
       width: 100%;
-  height: 100%;
-  background: #d5fafc;
     }
     .img2{
       position: absolute;
@@ -325,6 +326,10 @@ border-radius: 8px;
       left:45px;
       width: 26%;
   }
+  #footer {
+    top: 179rem;
+    width: 100%;
+  } 
     .txt{
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -364,24 +369,23 @@ margin: 8px 0px;
     }
     .map{
       position:absolute;
-      top:200px;left:36px;
+      top:200px;left:33px;
       width:20px;
       height:20px;
       position: absolute;;text-align:left;
-      overflow:hidden;background:none!important;height:500px;width:600px;
-      
+      overflow:hidden;background:none!important;height:300px;width:300px;
+      border-radius: 20px;
   }
   .map1{
-      border-radius: 20px;
-      width: 290px;
-      height:300px
+    border-radius: 20px;
+    height:300px;width:300px;
   }
   .name{
     position: absolute;
-    width: 90%;
-    height: 73px;
+    width: 81%;
+    height: 64px;
     left: 20px;
-    top: 540px;
+    top: 510px;
     
     background: #D6B1FF;
     border-radius: 25px;
@@ -408,10 +412,10 @@ margin: 8px 0px;
 }
 .mobilenumber{
     position: absolute;
-    width: 300px;
+    width: 81%;
     height: 60px;
     left: 20px;
-    top: 650px;
+    top: 590px;
     
     background: #D6B1FF;
     border-radius: 25px;
@@ -438,10 +442,10 @@ margin: 8px 0px;
 }
 .email{
     position: absolute;
-    width: 300px;
+    width: 81%;
     height: 60px;
     left: 20px;
-    top: 760px;
+    top: 665px;
     
     background: #D6B1FF;
     border-radius: 25px;
@@ -468,10 +472,10 @@ margin: 8px 0px;
 }
 .message{
     position: absolute;
-    width: 300px;
+    width: 81%;
     height: 100px;
     left: 20px;
-    top: 860px;
+    top: 740px;
     
     background: #D6B1FF;
     border-radius: 25px;
@@ -500,8 +504,8 @@ margin: 8px 0px;
     position: absolute;
     width: 144px;
     height: 62px;
-    left: 90px;
-    top:1000px;
+    left: 86px;
+    top:860px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
